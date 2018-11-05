@@ -1,3 +1,24 @@
+GIT
+  remote: https://github.com/TomBosmans/erb-components
+  revision: 9b3911effa9c1d0c51cd699abb99402a1e2dd59a
+  specs:
+    erb-components (0.1.0)
+      rails (~> 5.2.0)
+
+GIT
+  remote: https://github.com/TomBosmans/form_object
+  revision: b87a99323e76de0cae3ccf3526a9193373ae5d28
+  specs:
+    form_object (0.1.0)
+      rails (~> 5.2.0.rc1)
+
+GIT
+  remote: https://github.com/TomBosmans/table_object
+  revision: 9945c98ae06b02985f5f21245bec38537cb584fc
+  specs:
+    table_object (0.1.0)
+      rails (~> 5.2.0.rc2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -151,6 +172,8 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
+  erb-components!
+  form_object!
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
@@ -158,6 +181,7 @@ DEPENDENCIES
   rails (~> 5.2.0)
   spring
   spring-watcher-listen (~> 2.0.0)
+  table_object!
   tzinfo-data
   web-console (>= 3.3.0)
   webpacker
